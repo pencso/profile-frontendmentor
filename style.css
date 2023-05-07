@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+Dark-cyan: hsl(185, 75%, 39%);
+Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+Dark-grayish-blue: hsl(227, 10%, 46%);
+
+Dark-gray: hsl(0, 0%, 59%);
+
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(/images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 100vh top 50vh;
+    min-height: 100vh;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    overflow: hidden;
+    align-items: center;
+    background-color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container img:nth-of-type(2) {
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: -4rem;
+    border-radius: 10rem;
+    border: 6px solid white;
+}
+
+.name-age {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 15px;
+}
+
+.name-age h2 {
+    font-weight: 700;
+}
+
+.name-age h3 {
+    font-weight: 400;
+    color:hsl(227, 10%, 46%);
+}
+
+.container h4 {
+    margin-top: -0.8rem;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+
+
+.container hr {
+    border: 1px solid hsla(0, 0%, 59%, 0.219);
+    width: 100%;
+    margin-top:
+}
+
+.stat-container {
+    display: flex;
+    gap: 3.5rem;
+    text-align: center;
+    
+}
+
+.stat-container h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.stat-container h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -0.6rem;
+    color: hsl(227, 10%, 46%);
+}
